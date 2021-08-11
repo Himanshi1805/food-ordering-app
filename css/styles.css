@@ -1,0 +1,82 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: hsl(0, 36%, 70%);
+
+}
+
+span{
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+  letter-spacing: 10px;
+}
+h1{
+  font-weight: 600;
+  color: hsl(0, 6%, 24%);
+  text-transform:uppercase;
+  letter-spacing: 6px;
+  font-size: 60px;
+}
+.bgImg{
+  position: absolute;
+  z-index: -1;
+height: 100%;
+  width: 70%;
+  opacity: 0.7;
+}
+.img-desk{
+  height: 90%;
+  width: 100%;
+}
+.row{
+  height: 90%;
+
+    }
+.col1{
+  padding: 10%;
+  padding-top: 5%;
+  font-weight: 400;
+
+}
+.content{
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 120px;
+}
+p{
+  margin-top: 30px;
+  color:  hsl(0, 36%, 70%);
+}
+button{
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  width: 100px;
+  height: 60px;
+  border-radius: 30px;
+  position: absolute;
+  left: 30%;
+  top: 70%;
+  border-color: hsl(0, 36%, 70%);
+  margin-top: 5%;
+}
+
+  ::placeholder{
+    color: hsl(0, 36%, 70%);
+    opacity: 1;
+  }
+.danger-icon{
+  display: none;
+}
+.danger-text{
+  display: none;
+}
+
+.inputall { position: relative; width:240px; }
+.inputall input {
+   display:block;
+   margin-top: 19%;
+   width: 140%;
+   height: 60px;
+   border-radius: 30px;
+   border-color: hsl(0, 36%, 70%);
+}
+.inputall img { position: absolute; top: 15px; left: 265px; }
